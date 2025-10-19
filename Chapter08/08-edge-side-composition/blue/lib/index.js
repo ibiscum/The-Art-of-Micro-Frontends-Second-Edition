@@ -2,6 +2,7 @@ const express = require("express");
 const session = require("express-session");
 const path = require("path");
 const { renderFile } = require("ejs");
+const lusca = require("lusca");
 
 const app = express();
 
@@ -31,6 +32,10 @@ app.use(
   express.urlencoded({
     extended: true,
   })
+);
+
+app.use(
+  lusca.csrf()
 );
 
 app.use("/blue", express.static("public"));
