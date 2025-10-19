@@ -93,7 +93,7 @@ Object.keys(targets).forEach((prefix) => {
             let result = Buffer.from(response.data, "utf8").toString("utf8");
             const doc = cheerio.load(result);
 
-            doc("img").each((i, el) => {
+            doc("img").each((_i, el) => {
               const prev = el.attribs["src"];
 
               if (prev.startsWith(".")) {
@@ -102,7 +102,7 @@ Object.keys(targets).forEach((prefix) => {
               }
             });
 
-            doc("link,base").each((i, el) => {
+            doc("link,base").each((_i, el) => {
               const prev = el.attribs["href"];
 
               if (prev.startsWith(".")) {
@@ -111,7 +111,7 @@ Object.keys(targets).forEach((prefix) => {
               }
             });
 
-            doc("a").each((i, el) => {
+            doc("a").each((_i, el) => {
               const prev = el.attribs["href"];
 
               if (prev.startsWith(".")) {
@@ -120,7 +120,7 @@ Object.keys(targets).forEach((prefix) => {
               }
             });
 
-            doc("form").each((i, el) => {
+            doc("form").each((_i, el) => {
               const prev = el.attribs["action"];
 
               if (prev.startsWith(".")) {
