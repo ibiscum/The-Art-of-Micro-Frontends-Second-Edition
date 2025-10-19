@@ -2,6 +2,7 @@ const express = require("express");
 const session = require("express-session");
 const path = require("path");
 const { renderFile } = require("ejs");
+const lusca = require("lusca");
 
 const app = express();
 
@@ -35,6 +36,9 @@ app.use(
 
 app.use(express.static("public"));
 
+// Enable CSRF protection
+app.use(lusca.csrf());
+
 app.post("/buy-button", (req, res) => {
   const sku = req.body.sku || "porsche";
   const price = prices[sku] || defaultPrice;
@@ -63,6 +67,7 @@ app.get("/buy-button", (req, res) => {
   res.render("buy-button", {
     sku,
     price: prices[sku] || defaultPrice,
+    csrfToken: req.csrfToken(),
   });
 });
 
