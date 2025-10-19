@@ -19,12 +19,12 @@
   "devDependencies": {
     "@hyrious/esbuild-plugin-style": "^0.3.5",
     "@module-federation/vite": "^0.2.6",
-    "@softarc/native-federation-esbuild": "^2.0.9",
+    "@softarc/native-federation-esbuild": "^2.0.28",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
     "esbuild-auto-path-plugin": "0.15.1",
     "typescript": "^5",
-    "vite": "^4.0.1"
+    "vite": "^7.1.10"
   }
 }

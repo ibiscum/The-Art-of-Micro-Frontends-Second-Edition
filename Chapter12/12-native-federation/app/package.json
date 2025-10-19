@@ -16,10 +16,10 @@
   },
   "devDependencies": {
     "@module-federation/vite": "^0.2.8",
-    "@softarc/native-federation-esbuild": "^2.0.9",
+    "@softarc/native-federation-esbuild": "^2.0.28",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "typescript": "^5",
-    "vite": "^4.0.1"
+    "vite": "^7.1.10"
   }
 }
