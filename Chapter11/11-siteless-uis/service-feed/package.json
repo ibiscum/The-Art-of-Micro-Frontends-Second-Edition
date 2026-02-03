@@ -12,10 +12,10 @@
   "dependencies": {
     "connect-busboy": "^1.0.0",
     "cors": "^2.8.5",
-    "express": "^4.21.2",
+    "express": "^4.22.1",
     "mime-types": "^2.1.35",
-    "pm2": "^6.0.9",
-    "tar": "^6.2.1"
+    "pm2": "^6.0.14",
+    "tar": "^7.5.7"
   },
   "devDependencies": {}
 }
