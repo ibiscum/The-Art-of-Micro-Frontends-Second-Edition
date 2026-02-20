@@ -1,11 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 MFs=('app' 'blue' 'green' 'red')
 
 for MF in "${MFs[@]}"
 do
-  cd $MF
-  npm install
+  cd "$MF" || exit
+  pnpm install
   cd ..
 done
 

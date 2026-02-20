@@ -11,15 +11,15 @@
     "build": "vite build"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "@softarc/native-federation": "^3.3.6"
+    "@softarc/native-federation": "^3.5.2",
+    "react": "^19.2.4"
   },
   "devDependencies": {
     "@module-federation/vite": "^0.2.8",
     "@softarc/native-federation-esbuild": "^2.0.28",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
-    "typescript": "^5",
-    "vite": "^7.1.10"
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
   }
 }
