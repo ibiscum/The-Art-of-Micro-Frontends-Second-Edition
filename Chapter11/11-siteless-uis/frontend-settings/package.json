@@ -20,7 +20,7 @@
     "css-loader": "^7.1.1",
     "vue-loader": "^17",
     "vue-template-compiler": "^2",
-    "webpack": "^5.102.1",
+    "webpack": "^5.105.2",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
