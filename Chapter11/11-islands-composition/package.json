@@ -13,7 +13,7 @@
     "qwik-nx": "3.2.1"
   },
   "devDependencies": {
-    "@builder.io/qwik": "1.17.0",
+    "@builder.io/qwik": "1.19.1",
     "@builder.io/qwik-city": "1.19.0",
     "@nx/js": "21.6.5",
     "@nx/vite": "21.6.5",
