@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "eslint": "^9.39.2",
+    "eslint": "^10.1.0",
     "express": "^5.2.1",
     "http-proxy-middleware": "^3.0.5"
   }

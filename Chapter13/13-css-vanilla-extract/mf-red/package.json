@@ -6,25 +6,24 @@
     "pilet"
   ],
   "dependencies": {
-    "@vanilla-extract/css": "^1.11.1"
+    "@vanilla-extract/css": "^1.20.0"
   },
   "devDependencies": {
-    "sample-piral": "1.0.1",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
     "@types/node": "latest",
-    "@vanilla-extract/esbuild-plugin": "^2.2.2",
-    "typescript": "latest",
-    "reactstrap": "8.10.1",
-    "tslib": "2.5.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-router": "5.3.3",
-    "react-router-dom": "5.3.3",
-    "piral-cli": "1.0.0",
-    "piral-cli-esbuild": "latest"
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vanilla-extract/esbuild-plugin": "^2.3.22",
+    "piral-cli": "1.10.2",
+    "piral-cli-esbuild": "latest",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-router": "7.13.1",
+    "react-router-dom": "7.13.1",
+    "reactstrap": "9.2.3",
+    "sample-piral": "1.10.2",
+    "tslib": "2.8.1",
+    "typescript": "latest"
   },
-  "peerDependencies": {},
   "scripts": {
     "start": "pilet debug",
     "build": "pilet build",
