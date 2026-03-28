@@ -15,15 +15,15 @@ Go to the current directory and run npm install in each subdirectory:
 
 ```sh
 cd mf-1
-npm install
+pnpm install
 cd ..
 
 cd mf-2
-npm install
+pnpm install
 cd ..
 
 cd mf-gw
-npm install
+pnpm install
 cd ..
 ```
 
