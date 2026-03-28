@@ -11,23 +11,23 @@ The following software is required to run the sample:
 
 ## Running
 
-Go to the current directory and run npm install in each subdirectory:
+Go to the current directory and run pnpm install in each subdirectory:
 
 ```sh
 cd blue
-npm install
+pnpm install
 cd ..
 
 cd green
-npm install
+pnpm install
 cd ..
 
 cd red
-npm install
+pnpm install
 cd ..
 
 cd gateway
-npm install
+pnpm install
 cd ..
 ```
 

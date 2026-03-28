@@ -1,4 +1,12 @@
 {
+  "name": "06-web-approach",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lerna run app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "eslint": "^10.1.0",
     "express": "^5.2.1",
