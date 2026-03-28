@@ -1,0 +1,15 @@
+{
+  "name": "the-art-of-micro-frontends-second-edition",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --fix ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0"
+  }
+}

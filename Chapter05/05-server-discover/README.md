@@ -13,13 +13,13 @@ The following software is required to run the sample:
 Go to the current directory and run npm install:
 
 ```sh
-npm install
+pnpm install
 ```
 
 Now start the application:
 
 ```sh
-npm start
+pnpm run start
 ```
 
 ## Steps
