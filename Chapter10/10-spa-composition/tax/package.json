@@ -13,9 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "file-loader": "^6.2.0",
-    "svelte": "^5.55.0",
+    "svelte": "^5.55.4",
     "svelte-loader": "^3.2.4",
-    "webpack": "^5.105.4",
+    "webpack": "^5.106.1",
     "webpack-cli": "^7.0.2"
   }
 }

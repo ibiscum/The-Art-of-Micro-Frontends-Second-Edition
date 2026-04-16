@@ -6,7 +6,7 @@
     "pilet"
   ],
   "dependencies": {
-    "styled-components": "^6.3.12"
+    "styled-components": "^6.4.0"
   },
   "devDependencies": {
     "@types/node": "latest",
