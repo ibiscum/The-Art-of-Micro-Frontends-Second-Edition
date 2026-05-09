@@ -15,7 +15,7 @@
     "esbuild-style-plugin": "^1.6.3",
     "piral-cli": "1.10.3",
     "piral-cli-esbuild": "next",
-    "postcss": "^8.5.9",
+    "postcss": "^8.5.10",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-router": "7.13.2",
