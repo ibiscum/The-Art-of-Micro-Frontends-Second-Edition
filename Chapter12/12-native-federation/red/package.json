@@ -20,7 +20,7 @@
     "@hyrious/esbuild-plugin-style": "^0.3.5",
     "@module-federation/vite": "^1.14.4",
     "@softarc/native-federation-esbuild": "^3.5.5",
-    "@types/node": "25.5.0",
+    "@types/node": "25.6.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "esbuild-auto-path-plugin": "1.4.0",

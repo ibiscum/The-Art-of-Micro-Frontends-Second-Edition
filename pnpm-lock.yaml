@@ -483,13 +483,13 @@ importers:
     devDependencies:
       '@module-federation/vite':
         specifier: ^1.14.4
-        version: 1.14.4(node-fetch@3.3.2)(rollup@4.60.1)(typescript@6.0.2)(vite@8.0.8(@types/node@25.5.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4))
+        version: 1.14.4(node-fetch@3.3.2)(rollup@4.60.1)(typescript@6.0.2)(vite@8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4))
       '@softarc/native-federation-esbuild':
         specifier: ^3.5.5
         version: 3.5.5
       '@types/node':
-        specifier: 25.5.0
-        version: 25.5.0
+        specifier: 25.6.0
+        version: 25.6.0
       '@types/react':
         specifier: 19.2.14
         version: 19.2.14
@@ -498,7 +498,7 @@ importers:
         version: 6.0.2
       vite:
         specifier: ^8.0.8
-        version: 8.0.8(@types/node@25.5.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4)
+        version: 8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4)
 
   Chapter12/12-native-federation/blue:
     dependencies:
@@ -517,13 +517,13 @@ importers:
         version: 0.3.5(esbuild@0.28.0)
       '@module-federation/vite':
         specifier: ^1.14.4
-        version: 1.14.4(node-fetch@3.3.2)(rollup@4.60.1)(typescript@6.0.2)(vite@8.0.8(@types/node@25.5.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4))
+        version: 1.14.4(node-fetch@3.3.2)(rollup@4.60.1)(typescript@6.0.2)(vite@8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4))
       '@softarc/native-federation-esbuild':
         specifier: ^3.5.5
         version: 3.5.5
       '@types/node':
-        specifier: 25.5.0
-        version: 25.5.0
+        specifier: 25.6.0
+        version: 25.6.0
       '@types/react':
         specifier: 19.2.14
         version: 19.2.14
@@ -538,7 +538,7 @@ importers:
         version: 6.0.2
       vite:
         specifier: ^8.0.8
-        version: 8.0.8(@types/node@25.5.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4)
+        version: 8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4)
 
   Chapter12/12-native-federation/green:
     dependencies:
@@ -557,13 +557,13 @@ importers:
         version: 0.3.5(esbuild@0.28.0)
       '@module-federation/vite':
         specifier: ^1.14.4
-        version: 1.14.4(node-fetch@3.3.2)(rollup@4.60.1)(typescript@6.0.2)(vite@8.0.8(@types/node@25.5.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4))
+        version: 1.14.4(node-fetch@3.3.2)(rollup@4.60.1)(typescript@6.0.2)(vite@8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4))
       '@softarc/native-federation-esbuild':
         specifier: ^3.5.5
         version: 3.5.5
       '@types/node':
-        specifier: 25.5.0
-        version: 25.5.0
+        specifier: 25.6.0
+        version: 25.6.0
       '@types/react':
         specifier: 19.2.14
         version: 19.2.14
@@ -578,7 +578,7 @@ importers:
         version: 6.0.2
       vite:
         specifier: ^8.0.8
-        version: 8.0.8(@types/node@25.5.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4)
+        version: 8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4)
 
   Chapter12/12-native-federation/red:
     dependencies:
@@ -597,13 +597,13 @@ importers:
         version: 0.3.5(esbuild@0.28.0)
       '@module-federation/vite':
         specifier: ^1.14.4
-        version: 1.14.4(node-fetch@3.3.2)(rollup@4.60.1)(typescript@6.0.2)(vite@8.0.8(@types/node@25.5.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4))
+        version: 1.14.4(node-fetch@3.3.2)(rollup@4.60.1)(typescript@6.0.2)(vite@8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4))
       '@softarc/native-federation-esbuild':
         specifier: ^3.5.5
         version: 3.5.5
       '@types/node':
-        specifier: 25.5.0
-        version: 25.5.0
+        specifier: 25.6.0
+        version: 25.6.0
       '@types/react':
         specifier: 19.2.14
         version: 19.2.14
@@ -618,7 +618,7 @@ importers:
         version: 6.0.2
       vite:
         specifier: ^8.0.8
-        version: 8.0.8(@types/node@25.5.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4)
+        version: 8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4)
 
   Chapter12/12-webpack-module-federation/app:
     devDependencies:
@@ -3910,9 +3910,6 @@ packages:
 
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
-
-  '@types/node@25.5.0':
-    resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
 
   '@types/node@25.6.0':
     resolution: {integrity: sha512-+qIYRKdNYJwY3vRCZMdJbPLJAtGjQBudzZzdzwQYkEPQd+PJGixUL5QfvCLDaULoLv+RhT3LDkwEfKaAkgSmNQ==}
@@ -8069,9 +8066,6 @@ packages:
     resolution: {integrity: sha512-KPHm4VL5dDXKz01UuEd88Df+KzynaohSL9fBh096KWAxSKZQDI2uBrVqtvRM4rwrIrRRKsdLNML/lnaaVSRioA==}
     engines: {node: '>= 0.8'}
 
-  undici-types@7.18.2:
-    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
-
   undici-types@7.19.2:
     resolution: {integrity: sha512-qYVnV5OEm2AW8cJMCpdV20CDyaN3g0AjDlOGf1OW4iaDEx8MwdtChUp4zu4H0VP3nDRF/8RKWH+IPp9uW0YGZg==}
 
@@ -10382,7 +10376,7 @@ snapshots:
       find-pkg: 2.0.0
       resolve: 1.22.8
 
-  '@module-federation/vite@1.14.4(node-fetch@3.3.2)(rollup@4.60.1)(typescript@6.0.2)(vite@8.0.8(@types/node@25.5.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4))':
+  '@module-federation/vite@1.14.4(node-fetch@3.3.2)(rollup@4.60.1)(typescript@6.0.2)(vite@8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4))':
     dependencies:
       '@module-federation/dts-plugin': 2.3.3(node-fetch@3.3.2)(typescript@6.0.2)
       '@module-federation/runtime': 2.3.3(node-fetch@3.3.2)
@@ -10393,7 +10387,7 @@ snapshots:
       estree-walker: 3.0.3
       magic-string: 0.30.21
       pathe: 2.0.3
-      vite: 8.0.8(@types/node@25.5.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4)
+      vite: 8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4)
     transitivePeerDependencies:
       - bufferutil
       - node-fetch
@@ -11240,10 +11234,6 @@ snapshots:
   '@types/mime@1.3.5': {}
 
   '@types/ms@2.1.0': {}
-
-  '@types/node@25.5.0':
-    dependencies:
-      undici-types: 7.18.2
 
   '@types/node@25.6.0':
     dependencies:
@@ -16283,8 +16273,6 @@ snapshots:
     dependencies:
       random-bytes: 1.0.0
 
-  undici-types@7.18.2: {}
-
   undici-types@7.19.2: {}
 
   undici@7.24.7: {}
@@ -16437,22 +16425,6 @@ snapshots:
       fsevents: 2.3.3
       jiti: 1.21.7
       lightningcss: 1.32.0
-      sass: 1.99.0
-      terser: 5.46.1
-      yaml: 2.8.4
-
-  vite@8.0.8(@types/node@25.5.0)(esbuild@0.28.0)(jiti@1.21.7)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.4):
-    dependencies:
-      lightningcss: 1.32.0
-      picomatch: 4.0.4
-      postcss: 8.5.10
-      rolldown: 1.0.0-rc.15
-      tinyglobby: 0.2.16
-    optionalDependencies:
-      '@types/node': 25.5.0
-      esbuild: 0.28.0
-      fsevents: 2.3.3
-      jiti: 1.21.7
       sass: 1.99.0
       terser: 5.46.1
       yaml: 2.8.4
