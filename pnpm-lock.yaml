@@ -10,10 +10,10 @@ importers:
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.1
-        version: 10.0.1(eslint@10.2.0(jiti@1.21.7))
+        version: 10.0.1(eslint@10.3.0(jiti@1.21.7))
       eslint:
-        specifier: ^10.2.0
-        version: 10.2.0(jiti@1.21.7)
+        specifier: ^10.3.0
+        version: 10.3.0(jiti@1.21.7)
       globals:
         specifier: ^17.5.0
         version: 17.5.0
@@ -21,8 +21,8 @@ importers:
   Chapter06/06-web-approach:
     dependencies:
       eslint:
-        specifier: ^10.2.0
-        version: 10.2.0(jiti@1.21.7)
+        specifier: ^10.3.0
+        version: 10.3.0(jiti@1.21.7)
       express:
         specifier: ^5.2.1
         version: 5.2.1
@@ -931,7 +931,7 @@ importers:
         version: 1.10.3
       piral-cli-esbuild:
         specifier: next
-        version: 1.4.0
+        version: 1.3.0-beta.0fe3852
       react:
         specifier: 19.2.4
         version: 19.2.4
@@ -980,7 +980,7 @@ importers:
         version: 1.10.3
       piral-cli-esbuild:
         specifier: next
-        version: 1.4.0
+        version: 1.3.0-beta.0fe3852
       react:
         specifier: 19.2.4
         version: 19.2.4
@@ -1300,7 +1300,7 @@ importers:
         version: 1.10.3
       piral-cli-esbuild:
         specifier: next
-        version: 1.4.0
+        version: 1.3.0-beta.0fe3852
       postcss:
         specifier: ^8.5.10
         version: 8.5.14
@@ -1354,7 +1354,7 @@ importers:
         version: 1.10.3
       piral-cli-esbuild:
         specifier: next
-        version: 1.4.0
+        version: 1.3.0-beta.0fe3852
       react:
         specifier: 19.2.4
         version: 19.2.4
@@ -2770,16 +2770,8 @@ packages:
       '@noble/hashes':
         optional: true
 
-  '@humanfs/core@0.19.1':
-    resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
-    engines: {node: '>=18.18.0'}
-
   '@humanfs/core@0.19.2':
     resolution: {integrity: sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA==}
-    engines: {node: '>=18.18.0'}
-
-  '@humanfs/node@0.16.7':
-    resolution: {integrity: sha512-/zUx+yOsIrG4Y43Eh2peDeKCxlRt/gET6aHfaKpuq267qXdYDFViVHfMaLyygZOnl0kGWxFIgsBy8QFuTLUXEQ==}
     engines: {node: '>=18.18.0'}
 
   '@humanfs/node@0.16.8':
@@ -4223,14 +4215,14 @@ packages:
     peerDependencies:
       ajv: ^8.8.2
 
-  ajv@6.14.0:
-    resolution: {integrity: sha512-IWrosm/yrn43eiKqkfkHis7QioDleaXQHdDVPKg0FSwwd/DuvyX79TZnFOnYpB7dcsFAMmtFztZuXPDvSePkFw==}
-
   ajv@6.15.0:
     resolution: {integrity: sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==}
 
   ajv@8.18.0:
     resolution: {integrity: sha512-PlXPeEWMXMZ7sPYOHqmDyCJzcfNrUr3fGNKtezX14ykXOEIvyK81d+qydx89KY5O71FKMPaQ2vBfBFI5NHR63A==}
+
+  ajv@8.20.0:
+    resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
 
   amp-message@0.1.2:
     resolution: {integrity: sha512-JqutcFwoU1+jhv7ArgW38bqrE+LQdcRv4NxNw0mp0JHQyB6tXesWRjtYKlDgHRY2o3JE5UTaBGUK8kSWUdxWUg==}
@@ -5176,6 +5168,10 @@ packages:
   esast-util-from-js@2.0.1:
     resolution: {integrity: sha512-8Ja+rNJ0Lt56Pcf3TAmpBZjmx8ZcK5Ts4cAzIOjsjevg9oSXJnl6SUQ2EevU8tv3h6ZLWmoKL5H4fgWvdvfETw==}
 
+  esbuild-auto-path-plugin@1.3.0-beta.0fe3852:
+    resolution: {integrity: sha512-Y4ZGfevBm5sU/TvGrVgHIITqioPgP0/H4pKtplxKsGrAqZoGDlmgGRQtLe8yx1a/BzRxlylFHjzkN0vL2FawLg==}
+    engines: {node: '>=16.0'}
+
   esbuild-auto-path-plugin@1.4.0:
     resolution: {integrity: sha512-z6ZLQ3SapeMu8VERO2aIhy4PVfrhmv2nijoZqRzCGjSF+4d0M5ALgy89qUWgemgJpGJmkGRXobDjMfTL5BTrbA==}
     engines: {node: '>=16.0'}
@@ -5190,8 +5186,16 @@ packages:
     peerDependencies:
       esbuild: '*'
 
+  esbuild-externals-plugin@1.3.0-beta.0fe3852:
+    resolution: {integrity: sha512-hV3RE/yxG3QPZNsjRJLAwseCWkhi3brPnA5ge1rYcljZYHbF3RGljTQzeFMa51azdTrZmv5sRzoxC8r887GwCg==}
+    engines: {node: '>=16.0'}
+
   esbuild-externals-plugin@1.4.0:
     resolution: {integrity: sha512-0fo+D2ytNXUFp52jaYYumKrQ/t4ByGi11sN/L1FCrK4KlQm0I08dHy3TCnmIXxqH/0H43yRyCMbb9J4IXyB39w==}
+    engines: {node: '>=16.0'}
+
+  esbuild-pilet-plugin@1.3.0-beta.0fe3852:
+    resolution: {integrity: sha512-ql5G0Tlv2ZP0g2Q0yoqS40WLInDHdjMEI2wtUzRZbBKeG5SYYOyPWozaVYrx37PVvRy0tOuKP+Fi2Nh44tf+gg==}
     engines: {node: '>=16.0'}
 
   esbuild-pilet-plugin@1.4.0:
@@ -5256,16 +5260,6 @@ packages:
   eslint-visitor-keys@5.0.1:
     resolution: {integrity: sha512-tD40eHxA35h0PEIZNeIjkHoDR4YjjJp34biM0mDvplBe//mB+IHCqHDGV7pxF+7MklTvighcCPPZC7ynWyjdTA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
-
-  eslint@10.2.0:
-    resolution: {integrity: sha512-+L0vBFYGIpSNIt/KWTpFonPrqYvgKw1eUI5Vn7mEogrQcWtWYtNQ7dNqC+px/J0idT3BAkiWrhfS7k+Tum8TUA==}
-    engines: {node: ^20.19.0 || ^22.13.0 || >=24}
-    hasBin: true
-    peerDependencies:
-      jiti: '*'
-    peerDependenciesMeta:
-      jiti:
-        optional: true
 
   eslint@10.3.0:
     resolution: {integrity: sha512-XbEXaRva5cF0ZQB8w6MluHA0kZZfV2DuCMJ3ozyEOHLwDpZX2Lmm/7Pp0xdJmI0GL1W05VH5VwIFHEm1Vcw2gw==}
@@ -6894,6 +6888,10 @@ packages:
   pify@4.0.1:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
+
+  piral-cli-esbuild@1.3.0-beta.0fe3852:
+    resolution: {integrity: sha512-cERyuSMtxNovAS55XRwS2CCzBfG+SNAMtg+piUTZu4JPhH3YRTDvjsebPmaq3J7609ZwPOhU/tSWeEHiQZ0uqA==}
+    engines: {node: '>=20.18.1'}
 
   piral-cli-esbuild@1.4.0:
     resolution: {integrity: sha512-2cJ1DDGGKcvI/hxm+A/CSvZyLt64tWLvyk8Mk1ZG+27LlCUdCDG48jOaxV/2kCOpTWoQe1SWvEL7w6BNywUC4g==}
@@ -9946,11 +9944,6 @@ snapshots:
   '@esbuild/win32-x64@0.28.0':
     optional: true
 
-  '@eslint-community/eslint-utils@4.9.1(eslint@10.2.0(jiti@1.21.7))':
-    dependencies:
-      eslint: 10.2.0(jiti@1.21.7)
-      eslint-visitor-keys: 3.4.3
-
   '@eslint-community/eslint-utils@4.9.1(eslint@10.3.0(jiti@1.21.7))':
     dependencies:
       eslint: 10.3.0(jiti@1.21.7)
@@ -9974,9 +9967,9 @@ snapshots:
     dependencies:
       '@types/json-schema': 7.0.15
 
-  '@eslint/js@10.0.1(eslint@10.2.0(jiti@1.21.7))':
+  '@eslint/js@10.0.1(eslint@10.3.0(jiti@1.21.7))':
     optionalDependencies:
-      eslint: 10.2.0(jiti@1.21.7)
+      eslint: 10.3.0(jiti@1.21.7)
 
   '@eslint/object-schema@3.0.5': {}
 
@@ -9987,16 +9980,9 @@ snapshots:
 
   '@exodus/bytes@1.15.0': {}
 
-  '@humanfs/core@0.19.1': {}
-
   '@humanfs/core@0.19.2':
     dependencies:
       '@humanfs/types': 0.15.0
-
-  '@humanfs/node@0.16.7':
-    dependencies:
-      '@humanfs/core': 0.19.1
-      '@humanwhocodes/retry': 0.4.3
 
   '@humanfs/node@0.16.8':
     dependencies:
@@ -10307,7 +10293,7 @@ snapshots:
 
   '@mdx-js/mdx@3.1.1':
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       '@types/estree-jsx': 1.0.5
       '@types/hast': 3.0.4
       '@types/mdx': 2.0.13
@@ -11007,7 +10993,7 @@ snapshots:
 
   '@rollup/pluginutils@5.3.0(rollup@4.60.1)':
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       estree-walker: 2.0.2
       picomatch: 4.0.4
     optionalDependencies:
@@ -11215,22 +11201,22 @@ snapshots:
   '@types/eslint-scope@3.7.7':
     dependencies:
       '@types/eslint': 9.6.1
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   '@types/eslint@9.6.1':
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       '@types/json-schema': 7.0.15
 
   '@types/esquery@1.5.4':
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   '@types/esrecurse@4.3.1': {}
 
   '@types/estree-jsx@1.0.5':
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   '@types/estree@1.0.8': {}
 
@@ -11664,30 +11650,23 @@ snapshots:
       ajv: 8.18.0
     optional: true
 
-  ajv-formats@2.1.1(ajv@8.18.0):
+  ajv-formats@2.1.1(ajv@8.20.0):
     optionalDependencies:
-      ajv: 8.18.0
+      ajv: 8.20.0
 
   ajv-formats@3.0.1(ajv@8.18.0):
     optionalDependencies:
       ajv: 8.18.0
     optional: true
 
-  ajv-keywords@3.5.2(ajv@6.14.0):
+  ajv-keywords@3.5.2(ajv@6.15.0):
     dependencies:
-      ajv: 6.14.0
+      ajv: 6.15.0
 
-  ajv-keywords@5.1.0(ajv@8.18.0):
+  ajv-keywords@5.1.0(ajv@8.20.0):
     dependencies:
-      ajv: 8.18.0
+      ajv: 8.20.0
       fast-deep-equal: 3.1.3
-
-  ajv@6.14.0:
-    dependencies:
-      fast-deep-equal: 3.1.3
-      fast-json-stable-stringify: 2.1.0
-      json-schema-traverse: 0.4.1
-      uri-js: 4.4.1
 
   ajv@6.15.0:
     dependencies:
@@ -11697,6 +11676,13 @@ snapshots:
       uri-js: 4.4.1
 
   ajv@8.18.0:
+    dependencies:
+      fast-deep-equal: 3.1.3
+      fast-uri: 3.1.0
+      json-schema-traverse: 1.0.0
+      require-from-string: 2.0.2
+
+  ajv@8.20.0:
     dependencies:
       fast-deep-equal: 3.1.3
       fast-uri: 3.1.0
@@ -11973,7 +11959,6 @@ snapshots:
   brace-expansion@5.0.6:
     dependencies:
       balanced-match: 4.0.4
-    optional: true
 
   braces@3.0.3:
     dependencies:
@@ -12660,6 +12645,8 @@ snapshots:
       esast-util-from-estree: 2.0.0
       vfile-message: 4.0.3
 
+  esbuild-auto-path-plugin@1.3.0-beta.0fe3852: {}
+
   esbuild-auto-path-plugin@1.4.0: {}
 
   esbuild-codegen-plugin@2.1.0: {}
@@ -12670,7 +12657,17 @@ snapshots:
       lightningcss: 1.32.0
       lodash-es: 4.18.1
 
+  esbuild-externals-plugin@1.3.0-beta.0fe3852: {}
+
   esbuild-externals-plugin@1.4.0: {}
+
+  esbuild-pilet-plugin@1.3.0-beta.0fe3852:
+    dependencies:
+      '@babel/cli': 7.28.6(@babel/core@7.29.0)
+      '@babel/core': 7.29.0
+      '@babel/preset-env': 7.29.5(@babel/core@7.29.0)
+    transitivePeerDependencies:
+      - supports-color
 
   esbuild-pilet-plugin@1.4.0:
     dependencies:
@@ -12806,50 +12803,13 @@ snapshots:
   eslint-scope@9.1.2:
     dependencies:
       '@types/esrecurse': 4.3.1
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       esrecurse: 4.3.0
       estraverse: 5.3.0
 
   eslint-visitor-keys@3.4.3: {}
 
   eslint-visitor-keys@5.0.1: {}
-
-  eslint@10.2.0(jiti@1.21.7):
-    dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@10.2.0(jiti@1.21.7))
-      '@eslint-community/regexpp': 4.12.2
-      '@eslint/config-array': 0.23.5
-      '@eslint/config-helpers': 0.5.5
-      '@eslint/core': 1.2.1
-      '@eslint/plugin-kit': 0.7.1
-      '@humanfs/node': 0.16.7
-      '@humanwhocodes/module-importer': 1.0.1
-      '@humanwhocodes/retry': 0.4.3
-      '@types/estree': 1.0.8
-      ajv: 6.14.0
-      cross-spawn: 7.0.6
-      debug: 4.4.3
-      escape-string-regexp: 4.0.0
-      eslint-scope: 9.1.2
-      eslint-visitor-keys: 5.0.1
-      espree: 11.2.0
-      esquery: 1.7.0
-      esutils: 2.0.3
-      fast-deep-equal: 3.1.3
-      file-entry-cache: 8.0.0
-      find-up: 5.0.0
-      glob-parent: 6.0.2
-      ignore: 5.3.2
-      imurmurhash: 0.1.4
-      is-glob: 4.0.3
-      json-stable-stringify-without-jsonify: 1.0.1
-      minimatch: 10.2.5
-      natural-compare: 1.4.0
-      optionator: 0.9.4
-    optionalDependencies:
-      jiti: 1.21.7
-    transitivePeerDependencies:
-      - supports-color
 
   eslint@10.3.0(jiti@1.21.7):
     dependencies:
@@ -12918,7 +12878,7 @@ snapshots:
 
   estree-util-attach-comments@3.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   estree-util-build-jsx@3.0.1:
     dependencies:
@@ -12931,7 +12891,7 @@ snapshots:
 
   estree-util-scope@1.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       devlop: 1.1.0
 
   estree-util-to-js@2.0.0:
@@ -12949,7 +12909,7 @@ snapshots:
 
   estree-walker@3.0.3:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   esutils@2.0.3: {}
 
@@ -13366,7 +13326,7 @@ snapshots:
 
   hast-util-to-estree@3.1.3:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       '@types/estree-jsx': 1.0.5
       '@types/hast': 3.0.4
       comma-separated-tokens: 2.0.3
@@ -13387,7 +13347,7 @@ snapshots:
 
   hast-util-to-jsx-runtime@2.3.6:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       '@types/hast': 3.0.4
       '@types/unist': 3.0.3
       comma-separated-tokens: 2.0.3
@@ -13695,11 +13655,11 @@ snapshots:
 
   is-reference@1.2.1:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   is-reference@3.0.3:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
 
   is-unicode-supported@0.1.0: {}
 
@@ -14200,7 +14160,7 @@ snapshots:
 
   micromark-extension-mdx-expression@3.0.1:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       devlop: 1.1.0
       micromark-factory-mdx-expression: 2.0.3
       micromark-factory-space: 2.0.1
@@ -14211,7 +14171,7 @@ snapshots:
 
   micromark-extension-mdx-jsx@3.0.2:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       devlop: 1.1.0
       estree-util-is-identifier-name: 3.0.0
       micromark-factory-mdx-expression: 2.0.3
@@ -14228,7 +14188,7 @@ snapshots:
 
   micromark-extension-mdxjs-esm@3.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.3
       micromark-util-character: 2.1.1
@@ -14264,7 +14224,7 @@ snapshots:
 
   micromark-factory-mdx-expression@2.0.3:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       devlop: 1.1.0
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
@@ -14328,7 +14288,7 @@ snapshots:
 
   micromark-util-events-to-acorn@2.0.3:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       '@types/unist': 3.0.3
       devlop: 1.1.0
       estree-util-visit: 2.0.0
@@ -14425,7 +14385,7 @@ snapshots:
 
   minimatch@10.2.5:
     dependencies:
-      brace-expansion: 5.0.5
+      brace-expansion: 5.0.6
 
   minimatch@3.1.5:
     dependencies:
@@ -14865,6 +14825,18 @@ snapshots:
   pify@3.0.0: {}
 
   pify@4.0.1: {}
+
+  piral-cli-esbuild@1.3.0-beta.0fe3852:
+    dependencies:
+      cheerio: 1.2.0
+      esbuild: 0.25.12
+      esbuild-auto-path-plugin: 1.3.0-beta.0fe3852
+      esbuild-codegen-plugin: 2.1.0
+      esbuild-externals-plugin: 1.3.0-beta.0fe3852
+      esbuild-pilet-plugin: 1.3.0-beta.0fe3852
+      esbuild-sass-plugin: 2.16.1(esbuild@0.25.12)
+    transitivePeerDependencies:
+      - supports-color
 
   piral-cli-esbuild@1.4.0:
     dependencies:
@@ -15478,7 +15450,7 @@ snapshots:
 
   recma-build-jsx@1.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       estree-util-build-jsx: 3.0.1
       vfile: 6.0.3
 
@@ -15493,14 +15465,14 @@ snapshots:
 
   recma-parse@1.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       esast-util-from-js: 2.0.1
       unified: 11.0.5
       vfile: 6.0.3
 
   recma-stringify@1.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       estree-util-to-js: 2.0.0
       unified: 11.0.5
       vfile: 6.0.3
@@ -15530,7 +15502,7 @@ snapshots:
 
   rehype-recma@1.0.0:
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.9
       '@types/hast': 3.0.4
       hast-util-to-estree: 3.1.3
     transitivePeerDependencies:
@@ -15723,21 +15695,21 @@ snapshots:
   schema-utils@2.7.1:
     dependencies:
       '@types/json-schema': 7.0.15
-      ajv: 6.14.0
-      ajv-keywords: 3.5.2(ajv@6.14.0)
+      ajv: 6.15.0
+      ajv-keywords: 3.5.2(ajv@6.15.0)
 
   schema-utils@3.3.0:
     dependencies:
       '@types/json-schema': 7.0.15
-      ajv: 6.14.0
-      ajv-keywords: 3.5.2(ajv@6.14.0)
+      ajv: 6.15.0
+      ajv-keywords: 3.5.2(ajv@6.15.0)
 
   schema-utils@4.3.3:
     dependencies:
       '@types/json-schema': 7.0.15
-      ajv: 8.18.0
-      ajv-formats: 2.1.1(ajv@8.18.0)
-      ajv-keywords: 5.1.0(ajv@8.18.0)
+      ajv: 8.20.0
+      ajv-formats: 2.1.1(ajv@8.20.0)
+      ajv-keywords: 5.1.0(ajv@8.20.0)
 
   secure-compare@3.0.1: {}
 
