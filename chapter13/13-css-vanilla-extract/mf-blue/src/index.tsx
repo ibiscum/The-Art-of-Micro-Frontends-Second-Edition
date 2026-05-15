@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import type { PiletApi } from "sample-piral";
 import { tile, output } from "./index.css.ts";
 
-const Page = React.lazy(() => import("./Page"));
+const Page = React.lazy(() => import("./Page.tsx"));
 
 export function setup(app: PiletApi) {
   app.registerPage("/blue", Page);
