@@ -1,19 +1,19 @@
 packages:
   - '!Chapter05/05-pipeline/packages/*'
-  - Chapter06/**
-  - Chapter07/**
-  - Chapter08/**
-  - Chapter09/**
-  - Chapter10/**
-  - Chapter11/**
-  - Chapter12/**
-  - Chapter13/**
-  - Chapter14/**
-  - Chapter15/**
-  - Chapter16/**
-  - Chapter17/**
-  - Chapter18/**
-  - Chapter19/**
+  - chapter06/**
+  - chapter07/**
+  - chapter08/**
+  - chapter09/**
+  - chapter10/**
+  - chapter11/**
+  - chapter12/**
+  - chapter13/**
+  - chapter14/**
+  - chapter15/**
+  - chapter16/**
+  - chapter17/**
+  - chapter18/**
+  - chapter19/**
 
 onlyBuiltDependencies:
   - '@parcel/watcher'
