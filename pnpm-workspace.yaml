@@ -15,6 +15,12 @@ packages:
   - chapter18/**
   - chapter19/**
 
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  nx: true
+  sharp: true
+
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
