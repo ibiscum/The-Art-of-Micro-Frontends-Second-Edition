@@ -1,17 +1,17 @@
 {
-  "name": "mf-red",
+  "name": "mf-green",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "webpack serve --port 2001",
+    "start": "webpack serve --port 2003",
     "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
@@ -21,6 +21,6 @@
     "style-loader": "^4.0.0",
     "webpack": "^5.106.2",
     "webpack-cli": "^7.0.2",
-    "webpack-dev-server": "^5.2.3"
+    "webpack-dev-server": "^5.2.4"
   }
 }
