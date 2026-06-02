@@ -27,8 +27,8 @@ importers:
         specifier: ^5.2.1
         version: 5.2.1
       http-proxy-middleware:
-        specifier: ^3.0.5
-        version: 3.0.5
+        specifier: ^4.0.0
+        version: 4.0.0
 
   chapter06/06-web-approach/mf-1:
     devDependencies:
@@ -48,8 +48,8 @@ importers:
         specifier: ^5.2.1
         version: 5.2.1
       http-proxy-middleware:
-        specifier: ^3.0.5
-        version: 3.0.5
+        specifier: ^4.0.0
+        version: 4.0.0
 
   chapter07/07-server-side-composition/blue:
     dependencies:
@@ -6114,9 +6114,9 @@ packages:
       '@types/express':
         optional: true
 
-  http-proxy-middleware@3.0.5:
-    resolution: {integrity: sha512-GLZZm1X38BPY4lkXA01jhwxvDoOkkXqjgVyUzVxiEK4iuRu03PZoYHhHRwxnfhQMDuaxi3vVri0YgSro/1oWqg==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+  http-proxy-middleware@4.0.0:
+    resolution: {integrity: sha512-wuHwaUtmC0XzJNHqRp41zXtt5ojpHbusXGhq6781VvnjWUYPu7opmOF3eomGNujT07kEOnHWZyV9UZzKimVCKA==}
+    engines: {node: ^22.15.0 || ^24.0.0 || >=26.0.0}
 
   http-proxy@1.18.1:
     resolution: {integrity: sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==}
@@ -6134,6 +6134,9 @@ packages:
   https-proxy-agent@7.0.6:
     resolution: {integrity: sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==}
     engines: {node: '>= 14'}
+
+  httpxy@0.5.3:
+    resolution: {integrity: sha512-SMS9V6Sn7VWaS11lYhoAr0ceoaiolTWf4jYdJn0NJhCdKMu9R2H9Fh0LBDWBHQF6HRLI1PmaePYsjanSpE5PEw==}
 
   hyperdyperid@1.2.0:
     resolution: {integrity: sha512-Y93lCzHYgGWdrJ66yIktxiaGULYc6oGiABxhcO5AufBeOyoIdZF7bIfLaOrbM0iGIOXQQgxxRrFEnb+Y6w1n4A==}
@@ -6295,10 +6298,6 @@ packages:
 
   is-plain-object@2.0.4:
     resolution: {integrity: sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==}
-    engines: {node: '>=0.10.0'}
-
-  is-plain-object@5.0.0:
-    resolution: {integrity: sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==}
     engines: {node: '>=0.10.0'}
 
   is-potential-custom-element-name@1.0.1:
@@ -12589,7 +12588,7 @@ snapshots:
 
   axios@1.16.1:
     dependencies:
-      follow-redirects: 1.16.0
+      follow-redirects: 1.16.0(debug@4.3.7)
       form-data: 4.0.5
       https-proxy-agent: 5.0.1
       proxy-from-env: 2.1.0
@@ -13968,15 +13967,9 @@ snapshots:
 
   follow-redirects@1.15.11: {}
 
-  follow-redirects@1.16.0: {}
-
   follow-redirects@1.16.0(debug@4.3.7):
     optionalDependencies:
       debug: 4.3.7
-
-  follow-redirects@1.16.0(debug@4.4.3):
-    optionalDependencies:
-      debug: 4.4.3
 
   foreground-child@3.3.1:
     dependencies:
@@ -14287,13 +14280,12 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  http-proxy-middleware@3.0.5:
+  http-proxy-middleware@4.0.0:
     dependencies:
-      '@types/http-proxy': 1.17.17
       debug: 4.4.3
-      http-proxy: 1.18.1(debug@4.4.3)
+      httpxy: 0.5.3
       is-glob: 4.0.3
-      is-plain-object: 5.0.0
+      is-plain-obj: 4.1.0
       micromatch: 4.0.8
     transitivePeerDependencies:
       - supports-color
@@ -14301,15 +14293,7 @@ snapshots:
   http-proxy@1.18.1:
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.16.0
-      requires-port: 1.0.0
-    transitivePeerDependencies:
-      - debug
-
-  http-proxy@1.18.1(debug@4.4.3):
-    dependencies:
-      eventemitter3: 4.0.7
-      follow-redirects: 1.16.0(debug@4.4.3)
+      follow-redirects: 1.16.0(debug@4.3.7)
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
@@ -14346,6 +14330,8 @@ snapshots:
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
+
+  httpxy@0.5.3: {}
 
   hyperdyperid@1.2.0: {}
 
@@ -14464,8 +14450,6 @@ snapshots:
   is-plain-object@2.0.4:
     dependencies:
       isobject: 3.0.1
-
-  is-plain-object@5.0.0: {}
 
   is-potential-custom-element-name@1.0.1: {}
 
