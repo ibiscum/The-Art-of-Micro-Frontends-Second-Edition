@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@module-federation/vite": "^1.15.4",
-    "@softarc/native-federation-esbuild": "^3.5.5",
+    "@softarc/native-federation-esbuild": "^4.0.0",
     "@types/node": "^25.7.0",
     "@types/react": "^19.2.14",
     "typescript": "^6.0.3",
