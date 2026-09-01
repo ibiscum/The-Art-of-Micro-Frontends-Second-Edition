@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "css-loader": "^7.1.4",
+    "css-loader": "^7.1.5",
     "html-webpack-plugin": "^5.6.7",
     "mini-css-extract-plugin": "^2.10.2",
     "webpack": "^5.106.2",
