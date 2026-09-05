@@ -16,7 +16,7 @@
     "@builder.io/qwik": "^1.19.2",
     "@builder.io/qwik-city": "^1.19.2",
     "@nx/js": "^22.7.1",
-    "@nx/vite": "^22.7.1",
+    "@nx/vite": "^23.1.2",
     "@nx/workspace": "^22.7.1",
     "@vitest/ui": "^4.1.6",
     "autoprefixer": "^10.5.4",
